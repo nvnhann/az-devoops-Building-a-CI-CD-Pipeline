@@ -13,6 +13,7 @@ variables:
   webAppName: 'mlflaskapp'
   environmentName: 'rob-udacity-webapp'
   projectRoot: $(System.DefaultWorkingDirectory)
+  pythonVersion: '3.7'
 
 stages:
 - stage: Build
@@ -22,9 +23,9 @@ stages:
     pool: myPool
     steps:
     - task: UsePythonVersion@0
-      displayName: 'Use Python 3.7'
+      displayName: 'Use $(pythonVersion)'
       inputs:
-          versionSpec: 3.7.17
+          versionSpec: '$(pythonVersion)'
     
     - script: |
         python3 -m venv udacity-devoops

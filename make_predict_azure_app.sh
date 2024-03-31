@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 PORT=443
+APP=mlflaskapp
 echo "Port: $PORT"
 
 # POST method predict
@@ -25,5 +26,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://<yourappname>.azurewebsites.net:$PORT/predict 
+     -X POST https://$APP.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here

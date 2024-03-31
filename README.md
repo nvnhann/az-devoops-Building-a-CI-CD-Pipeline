@@ -16,7 +16,6 @@ In this project, you will build a Github repository from scratch and create a sc
 
 ---
 
-[![Video Title](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=In43hcrVnCc)
 
 
 This submission is for the 'Building a CI/CD Pipeline' project, a requirement for the 'DevOps Engineer for Microsoft Azure' nanodegree program offered by Udacity.

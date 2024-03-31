@@ -3,6 +3,9 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
+
+[![Python application test with Github Actions](https://github.com/nvnhann/az-devoops-Building-a-CI-CD-Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/nvnhann/az-devoops-Building-a-CI-CD-Pipeline/actions/workflows/pythonapp.yml)
+
 <TODO: Project Plan
 
 * A link to a Trello board for the project
